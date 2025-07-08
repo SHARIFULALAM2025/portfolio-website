@@ -156,7 +156,7 @@ main section{
 .resume{
      display: flex;
      justify-content: space-around;
-     gap: 12px;
+     gap: 24px;
 }
 .resume-text{
      text-align: center;
@@ -173,4 +173,10 @@ main section{
      border-radius: 5px;
     border: none;
     text-align: center;
+}
+.portfolio-footer{
+     background-color: #FFF8F3;
+     max-width: 1600PX;
+     height: 780PX;
+     margin: 0 auto;
 }
