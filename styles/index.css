@@ -176,26 +176,32 @@ main section{
 }
 .portfolio-footer{
      background-color: #FFF8F3;
-     max-width: 1600PX;
-     height:fit-content;
-     margin: 0 auto;
-     padding: 40px 20px;
+    
+   
+     padding: 130px 230px;
 }
 .footer-sex{
      display: flex;
      justify-content: space-around;
-     gap: 24px;
+     gap: 117px;
+    
      
 }
-.portfolio-footer .footer-sex form label{
+
+.portfolio-footer  input[type='text'],.portfolio-footer input[type='email'],.portfolio-footer textarea {
+     height: 64px;
+     border-radius: 5px;
+     background-color: white;
      display: block;
-     margin-bottom: 10px;
-}
-.portfolio-footer .footer-sex form input {
      width: 100%;
-     padding: 10px;
-     margin-bottom: 10px;
+     padding: 10px 20px;
+     margin-bottom: 24px;
+    
 }
-textarea{
-     resize: vertical;
+
+.foot-width{
+     width: 50%;
+}
+.foot-width1{
+     width: 50%;
 }
