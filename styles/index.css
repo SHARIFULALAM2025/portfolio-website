@@ -89,3 +89,36 @@ nav ul li a{
   margin-left: 200px;
   margin-top: 280px;
 }
+/* about section */
+.about-title{
+     font-size: 35px;
+     font-weight: bold;
+     color: #181818;
+
+}
+main{
+     max-width: 1140px;
+     margin: 0 auto;
+     
+}
+.about{
+     border-radius: 10px;
+     background-color: #FFF8F3;
+     padding: 130px 150px;
+     text-align: center;
+     margin: 130px;
+     
+}
+.about-items{
+     display: flex;
+     justify-content: space-around;
+     
+}
+.item-des{
+     font-weight: bold;
+     font-size: 20px;
+}
+.item-title{
+     font-size: 20px;
+     color: #757575;
+}
