@@ -18,6 +18,11 @@ nav{
      justify-content: space-between;
      margin: 0 200px;
 }
+.header{
+     background-image: url('../images/developer.png'), url('../images/header_bg.png');
+     background-repeat: no-repeat;
+     background-position: top left ,bottom right;
+}
 .nav-title{
      font-weight: 800;
      font-size: 45px;
@@ -71,11 +76,16 @@ nav ul li a{
 .banner{
      display: flex;
      justify-content: space-between;
+     align-items: center;
+     margin: 0, 35px,0,200px;
 }
 .banner-profile-picture{
      width: 584px;
+    
     height: fit-content;
 }
 .banner-div{
    max-width: 585px;
+  margin-left: 200px;
+  margin-top: 280px;
 }
