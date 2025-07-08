@@ -149,3 +149,28 @@ main section{
      box-shadow: 0,6,50px,0 rgba(0, 0, 0, .5);
      border-radius: 5px;
 }
+
+
+/* resume */
+
+.resume{
+     display: flex;
+     justify-content: space-around;
+     gap: 12px;
+}
+.resume-text{
+     text-align: center;
+}
+.resume-btn{
+     background-color:#FD6E0A ;
+     color: #FFFFFF;
+     font-weight: bold;
+     font-size: 20px;
+     padding-top: 18px;
+     padding-bottom: 19px;
+     padding-left: 36px;
+     padding-right: 35px;
+     border-radius: 5px;
+    border: none;
+    text-align: center;
+}
