@@ -1,0 +1,81 @@
+/* open sans font */
+
+.open-sans-normal {
+     font-family: "Open Sans", sans-serif;
+     font-optical-sizing: auto;
+     
+     font-style: normal;
+     font-variation-settings:
+       "wdth" 100;
+   }
+
+
+
+/* nav style */
+nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 0 200px;
+}
+.nav-title{
+     font-weight: 800;
+     font-size: 45px;
+}
+/* sheard color */
+.nav-title .mary-span{
+     color: #FD6E0A;
+}
+nav ul{
+     display: flex;
+     align-items: center;
+}
+nav ul li{
+     list-style: none;
+     margin-right: 51px;
+    
+}
+nav ul li a{
+     text-decoration: none;
+     
+}
+.dark3{
+     color: #474747;
+}
+/* button style */
+.btn-primary{
+     background-color:#FD6E0A ;
+     color: #FFFFFF;
+     font-weight: bold;
+     font-size: 20px;
+     padding-top: 18px;
+     padding-bottom: 19px;
+     padding-left: 36px;
+     padding-right: 35px;
+     border-radius: 5px;
+    border: none;
+
+}
+.banner-text{
+     font-size: 45px;
+     font-weight:600;
+}
+.banner-name{
+     font-size: 85px;
+     font-weight: bold;
+}
+.banner-des{
+     font-size: 16px;
+     color: #757575;
+}
+.banner{
+     display: flex;
+     justify-content: space-between;
+}
+.banner-profile-picture{
+     width: 584px;
+    height: fit-content;
+}
+.banner-div{
+   max-width: 585px;
+}
