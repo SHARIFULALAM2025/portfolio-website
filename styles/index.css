@@ -19,7 +19,7 @@ nav{
      margin: 0 200px;
 }
 .header{
-     background-image: url('../images/developer.png'), url('../images/header_bg.png');
+     background-image: url('images/developer.png'), url('images/header_bg.png');
      background-repeat: no-repeat;
      background-position: top left ,bottom right;
 }
